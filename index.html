@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="shapeUp">SHAPE UP OR SHAPE OUT</h1>
+    <h5 id="madeBy">Made by Zach Farmer</h5>
+    <div id="inputcontainer">
+        <div id="Rectangle">
+            <div class="rectangle">
+                <img src="" alt="">
+            </div>
+            <input id="rInput1" class="form-control form-control-sm" type="text" placeholder="Width">
+            <input id="rInput2" class="form-control form-control-sm" type="text" placeholder="Height">
+            <button id="recButton">Rectangle</button>
+        </div>
+        <div id="Square">
+            <div class="square">
+                <img src="" alt="">
+            </div>
+            <button id="sqButton">Square</button>
+            <input id="sInput" class="form-control form-control-sm" type="text" placeholder="Length">
+        </div>
+        <div id="Circle">
+            <div class="circle">
+                <img src="" alt="">
+            </div>
+            <input id="cInput" class="form-control form-control-sm" type="text" placeholder="Radius">
+            <button id="cirButton">Circle</button>
+        </div>
+        <div id="Triangle">
+            <div class="triangle">
+                <img src="" alt="">
+            </div>
+            <button id="triButton">Triangle</button>
+            <input id="tInput" class="form-control form-control-sm" type="text" placeholder="Height">
+        </div>
+    </div>
+
+    <div id="box" class="float-container">
+        <div id="shapecontainer" class="float-child">
+
+        </div>
+        <div id="sidebar" class="float-child">
+            <div id="shapename" class="form-control form-control-sm" type="text">Shape:</div>
+            <div id="width" class="form-control form-control-sm" type="text">Width:</div>
+            <div id="height" class="form-control form-control-sm" type="text">Height:</div>
+            <div id="radius" class="form-control form-control-sm" type="text">Radius:</div>
+            <div id="area" class="form-control form-control-sm" type="text">Area:</div>
+            <div id="perimeter" class="form-control form-control-sm" type="text">Perimeter:</div>
+        </div>
+    </div>
+
+
+    <!-- jQuery and Bootstrap linked to html file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

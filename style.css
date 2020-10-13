@@ -1,0 +1,55 @@
+#shapecontainer {
+height: 600px;
+width: 600px;
+background-color: cornflowerblue;
+border: solid 1px black;
+position: relative;
+overflow: hidden;
+}
+
+#inputcontainer {
+    border: solid 1px black;
+    background-color: lightsalmon;
+    width: 885px;
+}
+
+#sidebar{
+    height:600px;
+    width: 200px;
+    background-color: lightslategrey;
+
+    position: absolute;
+    left: 655px;
+}
+
+#shapeUp{
+    display: flex;
+    justify-content: center;
+}
+
+#madeBy{
+    display: flex;
+    justify-content: center;
+}
+
+.float-container{
+  display: flex;
+  padding: 0
+}
+
+.float-child{
+    width:50px;
+    float:left;
+    padding:20px
+}
+
+/* input{
+    width:91%
+} */
+/* 
+#rInput1{
+ width: 40%;
+}
+#rInput2{
+width:40%;
+} */
